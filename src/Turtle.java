@@ -11,6 +11,11 @@ public class Turtle {
     private double x, y;     // turtle is at (x, y)
     private double angle;    // facing this many degrees counterclockwise from the x-axis
 
+    public Turtle(){
+        this.x = 0;
+        this.y = 0;
+        this.angle = 0;
+    }
     // start at (x0, y0), facing a0 degrees counterclockwise from the x-axis
     public Turtle(double x0, double y0, double a0) {
         x = x0;
